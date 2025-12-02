@@ -1,0 +1,40 @@
+{
+  // Bot configuration
+  "BOT_TOKEN": "",
+  "ADMIN_IDS": [123456789,987654321],  // Administrator Telegram IDs
+  "ALLOWED_GROUP_ID": -1234567890,  // Allowed group ID for bot operations
+  
+  // Points threshold
+  "MIN_ACTIVE_POINTS": 10,  // Minimum points required to appear in active ranking
+  
+  // Community information
+  "COMMUNITY_NAME": "MatrixCore社区",
+  "COMMUNITY_GROUP_LINK": "https://t.me/w3matrix",
+  "COMMUNITY_TWITTER_CN": "",
+  "COMMUNITY_TWITTER_EN": "",
+  "COMMUNITY_INTRO_LINK": "",
+  "COMMUNITY_TUTORIAL_LINK": "",
+  "COMMUNITY_ACCOUNT_NAME": "Ton Wallet",
+  "COMMUNITY_BOT_NAME": "MatrixCore_bot",
+  "DEFAULT_LANGUAGE": "en_US",  // zh_CN or en_US
+  "NEWS_ENABLED": false,  // Enable/disable news broadcasting feature
+  "SIGNIN_WORD_ENABLED": true,  // Enable/disable daily sign-in word feature
+  "PRICE_BROADCAST_ENABLED": true,  // Enable/disable price broadcasting feature
+  
+  // Scheduled tasks time configuration
+  "NEWS_BROADCAST_TIME": "09:00",  // News broadcasting time (HH:MM format, 24-hour)
+  "SIGNIN_WORD_TIME": "09:05",  // Daily sign-in word selection and posting time (HH:MM format, 24-hour)
+  "PRICE_UPDATE_TIME": "00:00",  // Daily price update time (HH:MM format, 24-hour)
+  "PRICE_BROADCAST_INTERVAL_HOURS": 2,  // Price broadcast interval in hours
+  "REDPACKET_REFUND_TIME": "01:00",  // Red packet refund check time (HH:MM format, 24-hour)
+  
+  // Points configuration
+  "SIGNIN_POINTS": 50,  // Points for daily sign-in
+  "SIGNIN_BONUS_POINTS": 100,  // Bonus points for 7 consecutive days sign-in
+  "QUIZ_CORRECT_POINTS": 150,  // Points for correct quiz answer
+  "CHAT_POINTS": 3,  // Points for each chat message (0 to disable, includes admins)
+  "INVITE_REWARD_POINTS": 300,  // Points for inviter when invitee first joins group
+  
+  // API configuration
+  "PRICE_API_BASE_URL": "https://api.binance.us/api/v3/ticker/price"  // Base URL for cryptocurrency price API
+}

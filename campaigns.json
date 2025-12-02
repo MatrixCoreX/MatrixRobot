@@ -1,0 +1,14 @@
+[
+  {
+    "id": "campaign001",
+    "title": "示例活动：分享你的看法",
+    "desc": "这是一个示例活动，请按照活动要求提交相关内容。",
+    "deadline": "2025-12-31"
+  },
+  {
+    "id": "campaign002",
+    "title": "Example Campaign: Share Your Thoughts",
+    "desc": "This is an example campaign, please submit relevant content according to the campaign requirements.",
+    "deadline": "2025-12-31"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "title": "示例活动",
+    "match": ["活动", "参加活动"]
+  },
+  {
+    "title": "Example Activity",
+    "match": ["activity", "join activity", "participate"]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "zh_CN": [
+    "https://example.com/rss/feed-zh.xml"
+  ],
+  "en_US": [
+    "https://example.com/rss/feed-en.xml"
+  ]
+}
